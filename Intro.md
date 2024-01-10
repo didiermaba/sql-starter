@@ -24,5 +24,15 @@ Voici les avantages de l'utilisation des bases de données dans le développemen
 | Performances Optimisées | En utilisant des index, des techniques de normalisation, et en optimisant les requêtes, les bases de données permettent d'assurer des performances optimales même avec de grandes quantités de données. |
 | Évolutivité et Montée en Charge Horizontale | Les bases de données sont conçues pour évoluer avec le volume croissant des données. La possibilité de mettre en place des architectures de réplication ou de partitionnement facilite la montée en charge horizontale pour améliorer la performance. |
 
-
 L'utilisation judicieuse des bases de données dans le développement web offre une base solide pour la gestion efficace des données, la flexibilité nécessaire à l'adaptation aux besoins changeants, et la garantie de la sécurité et de l'intégrité des informations stockées. Ces avantages combinés contribuent à la création d'applications robustes, performantes et évolutives.
+
+### 1.3 Types de Bases de Données
+Il existe une diversité de systèmes de gestion de base de données (SGBD) adaptés à différents besoins et contextes. Examinerons les types de bases de données les plus couramment utilisés, tels que les bases de données relationnelles, les bases de données NoSQL, les bases de données orientées graphe, et bien d'autres. Chaque type a ses propres caractéristiques et avantages, explorerons comment choisir le type de base de données le plus approprié en fonction des exigences spécifiques d'un projet de développement web.
+
+| Type de BDD | Description | Exemple |
+| :--- | :--- | :--- |
+| Relationnelles | Utilisation de tables avec des relations entre celles-ci, idéales pour les transactions complexes, la normalisation et l'intégrité des données. | MySQL, PostgreSQL, Microsoft SQL Server |
+| NoSQL | Modèle de données flexible, adapté aux données non structurées, avec une évolutivité horizontale et une réactivité élevée. | MongoDB, Cassandra, Couchbase |
+| Orientées Graphe | Mettent l'accent sur les relations entre les données, représentées sous forme de graphes, adaptées aux modèles complexes de relations. | Neo4j, Amazon Neptune, ArangoDB |
+| Temps Réel | Conçues pour traiter et fournir des données en temps réel, idéales pour des applications nécessitant des mises à jour instantanées. | Apache Kafka, Redis Streams, Amazon Kinesis |
+| In-Memory | Stockage des données en mémoire vive plutôt que sur un disque, offrant des performances exceptionnelles pour les applications nécessitant des temps de réponse ultra-rapides. | SAP HANA, Redis, MemSQL |
